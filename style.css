@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -31,7 +32,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 /*========================================
-                  Geral
+                  GERAL
 ==========================================*/
 body {
 	line-height: 1;
@@ -61,6 +62,7 @@ a{
 }
 body{
 	margin: 40px 60px 40px 60px;
+	font-family: "Afacad Flux", sans-serif;
 }
 /*=========================================
                     TOPO
@@ -77,18 +79,21 @@ header nav ul li{
 	color: black;
 	padding: 0 0 0 30px;
 }
+/*=========================================
+                CONTEÚDO
+==========================================*/
 section.banner {
 	display: flex;
-	border-bottom: 2.5px solid lightgray;
+	border-bottom: 3px solid lightgray;
 	padding: 120px 150px 120px 150px;
 }
 section.banner div{
 	padding: 2px 4px 2px 4px;
 }
 section.banner div h1{
-	font-size: 4rem;
-	border-bottom: 1px solid lightgray;
-	padding: 50px 50px 50px 50px;
+	font-size: 3.2rem;
+	border-bottom: 2px solid lightgray;
+	padding: 50px 0 50px 100px;
 }
 section.banner div.principal{
 	padding: 2vw 4vw 2vw 4vw;
@@ -97,11 +102,12 @@ section.banner div.samanta p.cinza{
 	color: gray;
 }
 section.banner div.samantha{
-	padding: 50px 10px 10px 10px;
+	padding: 50px 0 10px 100px;
 }
 section.banner div.samantha p.primeiro{
-	padding: 10px 5px 30px 5px;
+	padding: 10px 0 30px 5px;
 	color: rgb(73, 73, 73);
+	font-size: 15px;
 }
 section.banner div.samanta{
 	display: flex;
@@ -110,12 +116,12 @@ section.banner div.samanta ul{
 	padding: 0.5vw 1vw 0 1vw;
 }
 section.baixo h1{
-	margin: 90px 30px 20px 160px;
-	font-size: 5rem;
+	margin: 90px 30px 8px 160px;
+	font-size: 4.4rem;
 	font-weight: 400;
 }
 section.baixo p.para{
-	margin: 50px 30px 20px 160px;
+	margin: 40px 30px 20px 160px;
 	font-size: 1.2rem ;
 	color: rgb(73, 73, 73);
 }
@@ -127,7 +133,37 @@ section.baixo div.lista ol li span.numero{
 	font-size: 1.5rem;
 	color: gray;
 	font-weight: bold;
+	margin: 10px 10px 12px 70px;
 }
 section.baixo div.lista ol li span.frase{
 	color: gray;
+	font-size: 20px;
+	margin: 20px 20px 50px 120px;
+}
+section.baixo div.lista ol li{
+	font-size: 2.5rem;
+	margin: 100px 20px 50px 20px;
+	border-bottom: 2px solid lightgray;
+	padding: 0 0 50px 0;
+}
+section.baixo{
+	border-bottom: 3px solid lightgray;
+}
+/*=========================================
+                 RODAPÉ
+==========================================*/
+footer{
+	text-align: center;
+	margin: 6.1vw 0 4.9vw 0;
+}
+footer ul{
+	display: flex;
+	justify-content: center;
+}
+footer ul li{
+	margin: 20px 15px 20px 15px;
+    font-size: 2rem;
+}
+footer p{
+	font-size: 13px;
 }
