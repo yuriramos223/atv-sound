@@ -101,10 +101,33 @@ section.banner div.samantha{
 }
 section.banner div.samantha p.primeiro{
 	padding: 10px 5px 30px 5px;
+	color: rgb(73, 73, 73);
 }
 section.banner div.samanta{
 	display: flex;
 }
 section.banner div.samanta ul{
 	padding: 0.5vw 1vw 0 1vw;
+}
+section.baixo h1{
+	margin: 90px 30px 20px 160px;
+	font-size: 5rem;
+	font-weight: 400;
+}
+section.baixo p.para{
+	margin: 50px 30px 20px 160px;
+	font-size: 1.2rem ;
+	color: rgb(73, 73, 73);
+}
+section.baixo{
+	display: flex;
+}
+section.baixo div.lista ol li span.numero{
+	padding: 0 5px 0 0;
+	font-size: 1.5rem;
+	color: gray;
+	font-weight: bold;
+}
+section.baixo div.lista ol li span.frase{
+	color: gray;
 }
